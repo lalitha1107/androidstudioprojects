@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="view_bg">#b20e0f</color>
+
+    <color name="btn_bg">#3e4a56</color>
+
+
+
+
+    <color name="background">#EEF8E4</color>
+    <color name="form_background">#FFFFFF</color>
+    <color name="blur">#C0000000</color>
+    <color name="actionbar">#EEF8E4</color>
+    <color name="green">#296666</color>
+    <color name="highlight_green">#27296666</color>
+    <color name="labeltextcolor">#306204</color>
+    <color name="edittextcolor">#306204</color>
+    <color name="hintgray">#757474</color>
+    <color name="white">#ffffff</color>
+    <color name="blue_text_color">#F72A7DC1</color>
+    <color name="list_background">#EEF8E4</color>
+    <color name="label_text_color">#000000</color>
+    <color name="edittext_text_color">#4C0000</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="edittext_hint_text_color">#A5663434</color>
+    <color name="facebook_button_color">#3C578F</color>
+    <color name="facebook_button_stroke_color">#02143B</color>
+    <color name="google_button_color">#DF5039</color>
+    <color name="google_button_stroke_color">#631104</color>
+    <color name="email_button_color">#26B89F</color>
+    <color name="email_button_stroke_color">#07453A</color>
+    <color name="toggle_button_deselected_txt_color">#7A7A7A</color>
+    <color name="toggle_button_selected_txt_color">#FFFFFF</color>
+    <color name="start_button_txt_color">#FFFFFF</color>
+
+    <color name="pink_color">#D94760</color>
+    <color name="dialog_background_color">#50000000</color>
+    <color name="green_color">#26B89F</color>
+    <color name="gray_color">#AA121212</color>
+    <color name="gray_text_color">#7f7f7f</color>
+
+</resources>
