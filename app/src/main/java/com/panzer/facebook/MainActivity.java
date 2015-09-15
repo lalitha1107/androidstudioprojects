@@ -57,7 +57,7 @@ public class MainActivity extends ActionBarActivity {
 
         facebook_id=f_name= m_name= l_name= gender= profile_image= full_name= email_id="";
 
-        //for facebook
+        //for facebook application
         FacebookSdk.sdkInitialize(getApplicationContext());
         callbackManager = CallbackManager.Factory.create();
 
