@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.panzer.application.R;
@@ -11,11 +12,14 @@ import com.panzer.application.R;
 public class SecondActivity extends AppCompatActivity {
 
     String type,facebook_id,fname,mname,lname,fullname,profileimage,emailid,gender;
+    TextView tvid,tvfullname,tvemailid,tvgender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
+
 
         type=getIntent().getStringExtra("type");
         facebook_id=getIntent().getStringExtra("facebook_id");
@@ -26,6 +30,16 @@ public class SecondActivity extends AppCompatActivity {
         profileimage=getIntent().getStringExtra("profile_image");
         emailid=getIntent().getStringExtra("email_id");
         gender=getIntent().getStringExtra("gender");
+
+        tvid=(TextView)findViewById(R.id.t1);
+        tvfullname=(TextView)findViewById(R.id.t2);
+        tvemailid=(TextView)findViewById(R.id.t3);
+        tvgender=(TextView)findViewById(R.id.t4);
+
+        tvid.setText(facebook_id);
+        tvfullname.setText(fullname);
+        tvemailid.setText(emailid);
+        tvgender.setText(gender);
         Toast.makeText(getApplicationContext(),type+facebook_id+fname+mname+lname+fullname+profileimage+emailid+gender,Toast.LENGTH_LONG).show();
 
     }
